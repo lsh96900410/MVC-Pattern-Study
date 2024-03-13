@@ -1,4 +1,4 @@
-![웹 어플리케이션 서버 구조](https://github.com/lsh96900410/aaa/assets/133841235/aaa37069-d0cd-4eed-855f-2813e8a10eb7)
+![웹 어플리케이션 서버 구조](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/5dab9cf4-e8f6-4f1f-99da-a23e72851ca5)
 
 Servlet은 HTTP 요청 메시지를 파싱한다. 그리고 그 결과를HttpServletRequest 객체로 제공한다.  
 HttpServletRequest 객체는 HTTP 조회 및 임시 저장소 / 세션 관리 등의 역할을 제공한다.  
@@ -7,7 +7,7 @@ HttpServletRequest 객체는 HTTP 조회 및 임시 저장소 / 세션 관리 �
 ### MVC 
 | Before | V1 | V2 |
 |--------|----------|----------|
-| ![MVC 1버전](https://github.com/lsh96900410/aaa/assets/133841235/3934e280-9ef1-47f0-94a1-0455973555b2)|![MVC 2버전](https://github.com/lsh96900410/aaa/assets/133841235/00a61df0-4bc1-40d1-82fa-d1bdf059072a)|![MVC 3버전](https://github.com/lsh96900410/aaa/assets/133841235/b826563f-04de-4613-9dab-797766088e19)|
+| ![MVC 1버전](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/bd7a4d72-5d4e-4db2-a3aa-63b90de9c9ef)|![MVC 2버전](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/e3add8c7-9f55-4d6b-8e31-267da3e2d65a)|![MVC 3버전](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/3c7febc5-e6ba-4559-8cfe-66e006088251)|
 
 ### 한계 및 단점 
 뷰 렌더링과 컨트롤러 작업을 분리 하였지만, 컨트롤러의 불필요하고 중복 작성 코드가 많다.
@@ -18,21 +18,21 @@ HttpServletRequest 객체는 HTTP 조회 및 임시 저장소 / 세션 관리 �
 
 | 존재 X | 존재 O |
 |:--------:|:----------:|
-|![프론트 컨트롤러 도입 전](https://github.com/lsh96900410/aaa/assets/133841235/b9d1a4c1-cf1d-40f5-b303-36a31ccc6ac3)|![프론트 컨트롤러 도입 후](https://github.com/lsh96900410/aaa/assets/133841235/c9aa26c2-b7f0-4cde-a57d-b47d68ec92cf)|
+|![프론트 컨트롤러 도입 전](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/aaeb49b6-fc9a-4ff6-b4eb-fcef37a89d04)|![프론트 컨트롤러 도입 후](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/4c82aaa6-3258-4b03-898f-ddd1833fd67f)|
 |**V1**|**V2**|
 | FrontController 생성 | 중복 뷰 로직 분리 |
-|![프론트 컨트롤러 1버전](https://github.com/lsh96900410/aaa/assets/133841235/baea69b9-f9fe-48b1-aa88-2d0ff3d056db)|![프론트 컨트롤러 2버전](https://github.com/lsh96900410/aaa/assets/133841235/8fe64c19-4856-4592-b763-b5a3f24ce418)|
+|![프론트 컨트롤러 1버전](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/4b9c09f7-344b-4c3b-935d-04526638d355)|![프론트 컨트롤러 2버전](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/1c7297e4-83f8-460e-9e90-5ad5786728e4)|
 |**V3**|**V4**|
 | Model 객체 추가 | View Name 반환 |
-|![V3](https://github.com/lsh96900410/aaa/assets/133841235/2a9984b0-18ea-408f-8c81-284f97cc5169)|![V4](https://github.com/lsh96900410/aaa/assets/133841235/83d9b523-9c7d-4a64-9ba1-d9910fe1dfe7)|
+|![V3](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/15fd68fe-7960-4164-a520-40a3c5cd4406)|![V4](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/58e055aa-7f5b-47ee-b9ba-0b1bf52473e6)|
 |**V5**||
 | 어댑터 역할 추가 |  |
-|![V5](https://github.com/lsh96900410/aaa/assets/133841235/a3151fbc-26e8-4cca-94a3-165e4ac5a96c)| |
+|![V5](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/a6ffffb2-6f1a-44f0-bf81-1782b78cc13b)| |
 
 ### Spring MVC
 | Self  | Framework |
 |:--------:|:----------:|
-|![직접 만든 스프링 MVC](https://github.com/lsh96900410/aaa/assets/133841235/2acbbbf4-d1ec-49d2-b28c-f6c55afe2c79)|![진짜 스프링 MVC 구조](https://github.com/lsh96900410/aaa/assets/133841235/a853f36b-8420-46c3-a8e5-40ba50b88a67)|
+|![직접 만든 스프링 MVC](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/d444073a-5abc-4f7a-b97b-86c0b32f799e)|![진짜 스프링 MVC 구조](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/837b1a4f-db2a-4cd2-99ca-e6f07c64a754)|
 
 ### ResponseBody
 HTTP Body에 직접 반환하며, ViewResolver 대신에 HttpMessageConverter 실행  
@@ -44,7 +44,7 @@ HTTP Body에 직접 반환하며, ViewResolver 대신에 HttpMessageConverter �
  
 | ResponseBody | RequestMappingHandlerAdapter |
 |:--------:|:----------:|
-| ![RESPONSEBODY](https://github.com/lsh96900410/aaa/assets/133841235/593d725e-f38f-456e-bd26-8082e7c9f32a)|![리퀘스트 매핑](https://github.com/lsh96900410/aaa/assets/133841235/afce10a5-ee69-4c16-a3ef-6921e3fc35c5)|
+| ![RESPONSEBODY](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/26b3bd94-9f21-458e-97d2-75c29d37540d)|![리퀘스트 매핑](https://github.com/lsh96900410/Servlet-MVC-Study/assets/133841235/2e4f0035-0b65-4c08-82cc-6077be1021f1)|
 
 스프링은 대부분이 인터페이스이기에 기능 확장이 필요할 경우 WebMvcConfigurer를 상속받아서 스프링 빈으로 등록가능. 
 
